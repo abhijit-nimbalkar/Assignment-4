@@ -1,6 +1,6 @@
 
 # File: hw4.1.py
-# Author(s):
+# Author(s): Abhijit Nimbalkar and Sriman
 
 # hw3.1.b
 # print("\n1.b:")
@@ -35,9 +35,11 @@ for d in data:
 # hw3.1.f
 # print("\n1.f")
 data.sort()
-print(header)
-for d in data:
-    print(d)
+print("{:>8s}  {:8s}  {:10s} {:s}".format(header[0],header[1],header[2],header[3]))
+for din in data:
+    print("{:8.2f}  {:8s}  {:10s} {:s}".format(din[0],din[1],din[2],din[3]))
+
+
 
 # hw3.1.g
 
